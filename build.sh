@@ -2,10 +2,11 @@
 
 export ARCH=arm64
 export SUBARCH=arm64
-export CLANG_PATH=/home/shaquibimdad/Desktop/kernel-dev/Toolchain-complete/linux-x86-refs_heads_master/clang-r383902/bin
+export CLANG_PATH=/home/shaqibxyz/proton-clang/bin
 export PATH=${CLANG_PATH}:${PATH}
 export CLANG_TRIPLE=aarch64-linux-gnu-
-export CROSS_COMPILE=/home/shaquibimdad/Desktop/kernel-dev/Toolchain-complete/android-ndk-r23-beta2/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-
+export CROSS_COMPILE=/home/shaquibxyz/proton-clang/aarch64-linux-gnu/bin
+export CROSS_COMPILE_ARM32=/home/shaquibxyz/proton-clang/arm-linux-gnueabi/bin
 
 
 make_kernel_init(){
